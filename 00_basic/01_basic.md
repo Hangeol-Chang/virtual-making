@@ -6,8 +6,7 @@
 
 - camera
 - lamp
-
-
+- 그리드 1칸 1m
 
 ribbon menu > render > render Image
 
@@ -73,9 +72,19 @@ ribbon menu > render > render Image
 
 
 
-
-
 ## Properties
+
+- 오른쪽 밑의 선택지 많은 창.
+- Scene property
+  - grid unit 변경 가능.
+
+
+
+- modifier properties
+  - ![img](/img/modifier_properties.png)
+  - subdivision Surfaces
+    - 끊겨있는 폴리곤을 부드럽게 이어줌.
+    - level을 높일수록 렌더링 오래걸림.
 
 
 
@@ -83,4 +92,61 @@ ribbon menu > render > render Image
 
 - collection
   - folder 같은 개념
-  - 
+
+
+
+
+
+# Edit
+
+### Add Objectd
+
+- Shift + a
+  - 다양한 형태 물체 있음.
+  - 물체를 추가하면 왼쪽 아래 Add _ 물체명 _ 이라는 속성 조절창이 뜸.
+    - 조절창을 끈 이후에는 f9 키로 조절창을 불러올 수 있음.
+- 조절창
+  - segment
+    - 물체의 해상도
+
+
+
+### Scale fix
+
+- ctrl + a > scale
+  - ctrl + a 메뉴는 이것저것 지금의 기준에 맞게 정리해주는 느낌.
+
+
+
+### shade
+
+- 모델에서 우클릭 > shade smooth
+  - 실제로 면을 부드럽게 하는 것이 아니라, 보이는것만 그렇게 만듬.
+- shade flat 하면 원래대로 돌아옴.
+
+
+
+### Edit Surface
+
+- vertex
+  - 물체 poly의 한 점.
+  - 여러개 클릭해서 면이 이루어지면, 면도 색이 활성화됨.
+  - 물체 움직이는거랑 똑같이 클릭하고 G키로 움직일 수 있음.
+
+#### Proportional Editing
+
+- ![img2](/img/proportional.png)
+- 주변의 vertex를 같이 변형시켜서, 자연스럽게 해줌.
+
+
+
+
+
+## Mode change
+
+mode change console : ctrl + tab
+
+#### Edit mod
+
+- tab
+
