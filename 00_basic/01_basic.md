@@ -1,4 +1,4 @@
-# Basic
+# eBasic
 
 
 
@@ -34,6 +34,8 @@ ribbon menu > render > render Image
 - S
 
 
+
+드래그로 조절하는 것들 shift 누르고 하면 미세하게 됨.
 
 
 
@@ -85,6 +87,11 @@ ribbon menu > render > render Image
   - subdivision Surfaces
     - 끊겨있는 폴리곤을 부드럽게 이어줌.
     - level을 높일수록 렌더링 오래걸림.
+  
+  
+  
+  - 적용되는 순서가 중요함.
+    - 위에꺼부터 적용됨.
 
 
 
@@ -135,8 +142,39 @@ ribbon menu > render > render Image
 
 #### Proportional Editing
 
-- ![img2](/img/proportional.png)
-- 주변의 vertex를 같이 변형시켜서, 자연스럽게 해줌.
+- 중앙 상단
+
+  ![img2](/img/proportional.png)
+
+  - 주변의 vertex를 같이 변형시켜서, 자연스럽게 해줌.
+
+
+
+- 우측 상단
+  ![i3](/img/toggle.png)
+  - 물체를 투명하게 만들어서, 뒤에 있는것도 클릭이 가능하게 함.
+
+
+
+### Duplicate
+
+- shift + D
+  - 복사중인 상태로 esc를 누르면, 원래 위치에 고정됨.
+
+
+
+#### Seperate Object
+
+- P
+  - 선택
+  - material 등으로 오브젝트를 구분함.
+
+
+
+#### select object
+
+- ctrl + l
+  - 연결된 vetex를 전부 선택해줌.
 
 
 
@@ -149,4 +187,10 @@ mode change console : ctrl + tab
 #### Edit mod
 
 - tab
+
+
+
+
+
+---
 
