@@ -1,4 +1,4 @@
-# eBasic
+# Basic
 
 
 
@@ -11,6 +11,12 @@
 ribbon menu > render > render Image
 
 - 렌더해줌
+
+
+
+- 오른쪽 경계에서 우클릭하면, view를 나눌 수 있음.
+
+![image-20230304155402553](/img/split.png)
 
 
 
@@ -92,6 +98,7 @@ ribbon menu > render > render Image
   
   - 적용되는 순서가 중요함.
     - 위에꺼부터 적용됨.
+  - 적용되어 있는 필터같은 느낌이고, 이를 실제 물체 속성으로 넣으려면 각 옵션에서 apply를 누르면 됨.
 
 
 
@@ -101,6 +108,23 @@ ribbon menu > render > render Image
   - folder 같은 개념
 
 
+
+
+
+## Selecting
+
+- alt + left click
+
+  ​	그 선이 이어진 것들을 전부 선택해줌
+
+
+
+
+
+- h 
+  - 선택된 물체를 안보이게 함.
+- alt + h
+  - 숨긴 물체 전부 킴.
 
 
 
@@ -115,6 +139,8 @@ ribbon menu > render > render Image
 - 조절창
   - segment
     - 물체의 해상도
+
+
 
 
 
@@ -178,6 +204,60 @@ ribbon menu > render > render Image
 
 
 
+#### Extrude
+
+- 면, vertex 등을 복사해서 늘림.
+
+
+
+## Sculpting
+
+붓 등으로 직접 모델링을 깍기.
+
+modifier가 다 적용된 상태에서 하는 것이 좋음.
+
+sculping mode에 들어와서 시장.
+
+
+
+### Hot keys
+
+- f
+  - 브러시 크기 변경
+- shift + f
+  - strength  변경
+
+
+
+> sculp가 준비된 상태.
+> ![img](/img/sculpready.png)
+
+
+
+- 기본적으로 면을 꺼내는 식으로 작동함.
+  - ctrl 누르면 반대로 작동.
+
+
+
+### Tools (shortcut)
+
+
+
+#### Inflate (i)
+
+- 확장시킴
+- 전체적으로 부풀게 하는 느낌
+
+
+
+#### Grab (g)
+
+- 특정한 지점을 잡아당김.
+
+
+
+
+
 
 
 ## Mode change
@@ -193,4 +273,34 @@ mode change console : ctrl + tab
 
 
 ---
+
+
+
+#### Snap
+
+- 여러 환경(그리드, 물체 등)에 맞춰서 물체를 움직이거나 확대하게 해줌.
+
+- face 를 선택한 상태로 점을 편집하면, 다른 objecet의 면에 맞춰서 움직임.
+
+  - Project individual Elements
+    - 움직일 때 주변의 vertex도 snap의 영향을 받음.
+
+  ![i4](/img/snap.png)
+
+  
+
+
+
+
+
+
+
+
+
+
+
+## modifiers
+
+- Shrinkwrap
+  - 다른 물체에 snap해줌.\
 
