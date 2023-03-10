@@ -45,7 +45,7 @@ ribbon menu > render > render Image
 
 
 
-## Cameras
+## Camera
 
 - wheel
   - zoom
@@ -53,6 +53,11 @@ ribbon menu > render > render Image
   - rotate canvas
 - shift + wheel click
   - move canvas
+
+
+
+- viewport
+  - 카메라 유효거리 조정 가능.
 
 
 
@@ -77,6 +82,26 @@ ribbon menu > render > render Image
 ### reset view
 
 - 오른쪽 위의 뷰큐브로 조정
+
+
+
+## View
+
+- object
+- wireframe
+  - 면 날리고 선만 보여줌.
+- material
+  - material 적용할 때 사실적으로 보여줌.
+- render
+
+
+
+## Light
+
+- Power
+  - 빛 세기 조절
+- SHadow
+  - Bias > 범위? 조절
 
 
 
@@ -142,7 +167,10 @@ ribbon menu > render > render Image
 
 
 
+### move
 
+- alt + g
+  - 현재 선택한 물체를 원점으로 이동시킴.
 
 ### Scale fix
 
@@ -303,4 +331,68 @@ mode change console : ctrl + tab
 
 - Shrinkwrap
   - 다른 물체에 snap해줌.\
+
+
+
+
+
+## Scene
+
+- Render Engine
+  - Eevee
+    - Real time render engine
+  - Cycle
+    - raytracing 처리
+
+
+
+- Shadows
+  - Cube Size > Shadow 디테일 조정.
+- Ambient Occulusion
+  - real time render에서 빛 반사 등을 더 사실적으로 처리해줌.
+
+
+
+## Material
+
+> node로 적용하면 기깔나게 가능하나, 어려움.
+
+#### properties
+
+- base color
+  - color 설정
+- Subsurface
+  - scattering
+    - 빛이 물체를 동과하는 것.
+- Subsurface Radius
+  - rgb를 정함.
+- Subsurface color
+
+
+
+## Render
+
+GPU render 설정
+
+- preference > System > Cycle Render option 선택
+- 안하면 CPU로 렌더링함.
+
+
+
+리본메뉴 Render > Render Image (F12) or 오른쪽 위의 render view mode  
+
+> 렌더링은 리소스를 많이 먹음.
+
+ctrl + alt + 0 > 카메라 뷰로 이동.
+
+
+
+slot에 렌더 설정을 저장해놓고 돌려가며 쓸 수 있음.
+
+
+
+view 탭에서 Camera to View 클릭하면, view를 움직일 때 camera가 따라옴.
+
+- 카메라 위치 이동하고 싶을 때 사용.
+- 
 
