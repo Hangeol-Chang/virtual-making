@@ -394,5 +394,68 @@ slot에 렌더 설정을 저장해놓고 돌려가며 쓸 수 있음.
 view 탭에서 Camera to View 클릭하면, view를 움직일 때 camera가 따라옴.
 
 - 카메라 위치 이동하고 싶을 때 사용.
-- 
 
+
+
+## Texture
+
+### Texturing
+
+- material에 여러 작업을 위해 노드 에디터 필요.
+
+
+
+
+
+#### nodes
+
+- Noise Texture
+
+  - 랜던한 노이즈를 섞음
+
+- Color Ramp
+
+  - 레벨링 조절의 확장판.
+  - 그라데이션 등을 색을 지정해서 넣어줌.
+
+  ![i](/img/colorramp.png)
+
+
+
+- Image Texture
+  - 2D Image를 3D에 매핑해야 함.
+- Texture Coodinate
+  - 적용될 좌표 배열을 적용함.
+
+- Bump
+  - 표면을 울퉁불퉁하게 하기 위해서,
+    특정 값을 물체에 수직인 방향의 무언가로 바꾸어줌.
+
+
+
+
+
+### Texture Painting
+
+
+
+# Node editor
+
+- 리본메뉴 shading 클릭시 뜸.
+
+![i6](C:\Users\User\Documents\Github\study-blender\00_basic\nodeeditor.png)
+
+- 노드들은 left 에서 right 방향으로 작동함.
+
+
+
+#### Shortcuts
+
+- shift + a
+  - node 추가
+
+- right click drag
+  - 연결된 노드들을 자름.
+- ctrl + shift
+  - 지금 선택한 노드까지만 적용된 결과를 보여줌.
+  - 이걸 쓰면 노드를 자르고 연결할 필요 없이 각각이 어떻게 작용하는지 알 수 있음.
