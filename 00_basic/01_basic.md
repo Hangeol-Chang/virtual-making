@@ -363,7 +363,7 @@ mode change console : ctrl + tab
   - color 설정
 - Subsurface
   - scattering
-    - 빛이 물체를 동과하는 것.
+    - 빛 반사량 설정.
 - Subsurface Radius
   - rgb를 정함.
 - Subsurface color
@@ -437,6 +437,27 @@ view 탭에서 Camera to View 클릭하면, view를 움직일 때 camera가 따�
 
 ### Texture Painting
 
+- 리본 메뉴에서 선택
+
+
+
+- 기본적으로 No Texture 상태
+- Image Texture 노드에서 New를 눌러서 추가
+  ![i](/img/imgtexture.png)
+- 만들 이미지 설정
+  ![](/img/imgtexture2.png)
+
+
+
+- 텍스쳐 paint에 들어오면, 아래처럼 텍스쳐 raw파일과, 적용상황이 보임.
+  ![](/img/imgtexture3.png)
+
+
+
+- 브러시로 적당히 그릴 것.
+- 저장
+  - alt + s
+
 
 
 # Node editor
@@ -459,3 +480,11 @@ view 탭에서 Camera to View 클릭하면, view를 움직일 때 camera가 따�
 - ctrl + shift
   - 지금 선택한 노드까지만 적용된 결과를 보여줌.
   - 이걸 쓰면 노드를 자르고 연결할 필요 없이 각각이 어떻게 작용하는지 알 수 있음.
+
+
+
+### Nodes
+
+- Color
+  - MixRGB
+    - 두 색을 석어줌.
