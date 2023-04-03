@@ -20,6 +20,11 @@
 
 - w 를 누르면 선택 모드가 바뀜
 
+##### 다중 선택
+
+- B
+  ![](/img/02_selectall.png)
+
 #### Move
 
 - G (grab)
@@ -35,8 +40,6 @@
 > Tip
 >
 > - Move, Rotate, Scale 상태에서 x, y, z키를 누르면 각 축에 대해서만 조절할 수 있음.
-
----
 
 
 
@@ -55,16 +58,25 @@
 
 ![](/img/02_apply.png)
 
+---
 
+#### Copy Object
+
+- Shift + D 
+  - 포토샵의 ctrl + J 처럼 작동함
 
 
 
 ### 3D Cursor
 
-![](/img/3dCursor.png)
+![](/img/02_3dCursor.png)
 
 - 물체를 새로 만들 때, 3D Cursor를 중심으로 만들어지게 됨.
 - shift + 우클릭 으로 위치 설정 가능.
+
+
+
+### Snap
 
 
 
@@ -98,4 +110,17 @@
 - /
   - local view
   - 선택된 물체만 보여줌. 한번 더 누르면 종료
+
+
+
+### Axes
+
+#### Local Axes
+
+![](/img/02_coordinate.png)
+
+- 로컬 좌표계로 바꾸면, 물체의 방향에 맞게 설정됨.
+- 중심을 어떻게 잡고 움직일지 지정 가능.
+
+![](/img/02_originOption.png)
 
