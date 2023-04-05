@@ -93,3 +93,22 @@ ribbon menu > render > render Image
 - 오른쪽 경계에서 우클릭하면, view를 나눌 수 있음.
 
 ![image-20230304155402553](/img/split.png)
+
+
+
+
+
+
+
+### Object View Option
+
+![](/img/01_viewOption.png)
+
+- 원하는 타입의 물체만 선택해서 보거나, 클릭 불가 지정 가능.
+
+- 오른쪽의 solid / material / object / wireframe으로 물체 형태 지정 가능.
+
+![](/img/01_viewOption2.png)
+
+- 각 옵견에 대해서, 빛의 세기 / 기타 등등 관련된 설정 가능. (자세히 몰루)
+

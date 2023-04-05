@@ -67,6 +67,25 @@
 
 
 
+#### Set Origin
+
+![](/img/02_setOrigin.png)
+
+- 물체의 중점을 옮길 수 있음(그냥 우클릭 메뉴에 있음)
+
+
+
+### Cursor
+
+![](/img/02_cursor.png)
+
+-  shift + S  > 커서 옵션
+   -  커서를 원점에 맞추거나, 물체의 중점의 맞추는 등의 작업 가능.
+
+
+
+
+
 ### 3D Cursor
 
 ![](/img/02_3dCursor.png)
