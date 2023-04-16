@@ -46,6 +46,16 @@
 
 
 
+### Multiview
+
+![](/img/01_multiview.png)
+
+- ctrl + space
+  - 여러개의 뷰포트중에 내가 보고있는거를 최대화해서 볼 수 있음. 
+  - 다시 ctrl + space 누르면 돌아감.
+
+
+
 
 
 ### Viewmode

@@ -67,6 +67,14 @@
 
 
 
+#### Join Object
+
+- Ctrl + J
+  - 물체 하나로 합치기
+  - 단순히 그룹화되는 것이 아니라, 하나의 object가 됨.
+
+
+
 #### Set Origin
 
 ![](/img/02_setOrigin.png)
