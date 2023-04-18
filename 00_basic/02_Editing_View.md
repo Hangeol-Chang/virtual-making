@@ -73,6 +73,14 @@
   - 물체 하나로 합치기
   - 단순히 그룹화되는 것이 아니라, 하나의 object가 됨.
 
+#### Seperate Object
+
+![](/img/02_seperate.png)
+
+- Tab으로 편집 모드에 들어가서, 
+  메시 선택 후 Selection으로 분리 가능.
+  - Loose Parts로 하면 오브젝트 단위로 잘림.
+
 
 
 #### Set Origin
@@ -162,3 +170,17 @@
 
 ![](/img/02_originOption.png)
 
+
+
+
+
+# Edit mode
+
+- Tab을 눌러서 edit 모드로 들어감
+
+
+
+### Shortcuts
+
+- L
+  - 선택된거와 연결된 메시를 통째로 선택함.

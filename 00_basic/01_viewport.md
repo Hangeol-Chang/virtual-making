@@ -122,3 +122,11 @@ ribbon menu > render > render Image
 
 - 각 옵견에 대해서, 빛의 세기 / 기타 등등 관련된 설정 가능. (자세히 몰루)
 
+
+
+#### Object view
+
+![](/img/01_renderoption.png)
+
+- color 랜덤 등 설정해서 오브젝트간 구분 가능.
+
